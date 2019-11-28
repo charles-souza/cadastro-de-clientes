@@ -1,0 +1,44 @@
+unit uModelClienteCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.DBCtrls, Vcl.Mask,
+  Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    edtCodigo: TEdit;
+    Label5: TLabel;
+    edtEndereco: TEdit;
+    Label2: TLabel;
+    Edit5: TEdit;
+    Label3: TLabel;
+    edtCPF: TMaskEdit;
+    Label6: TLabel;
+    edtCidade: TEdit;
+    Label4: TLabel;
+    edtDataNascimento: TMaskEdit;
+    cbUF: TDBComboBox;
+    Label7: TLabel;
+    edtLimiteCredito: TMaskEdit;
+    SpeedButton5: TSpeedButton;
+    btnGravar: TSpeedButton;
+    Label8: TLabel;
+    Panel1: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

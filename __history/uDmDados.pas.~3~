@@ -1,0 +1,34 @@
+unit uDmDados;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Datasnap.DBClient, midaslib;
+
+type
+  TDataModule1 = class(TDataModule)
+    ClientDataSet1: TClientDataSet;
+    ClientDataSet1Codigo: TIntegerField;
+    ClientDataSet1LimiteCredito: TFloatField;
+    ClientDataSet1Nome: TStringField;
+    ClientDataSet1CPF: TStringField;
+    ClientDataSet1Endereco: TStringField;
+    ClientDataSet1DataNascimento: TDateField;
+    ClientDataSet1Cidade: TStringField;
+    ClientDataSet1UF: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

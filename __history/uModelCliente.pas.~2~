@@ -1,0 +1,20 @@
+unit uModelCliente;
+
+interface
+
+type
+TCliente = class
+  private
+  FCodigo : Integer;
+  FNome : String;
+  FEndereco : String;
+  FCidade : String;
+  FUF (Utilizar componente TDbComboBox)
+  FCPF : String;
+  FDtNascimento : Date;
+  FLimiteCredito : Double;
+end;
+
+implementation
+
+end.

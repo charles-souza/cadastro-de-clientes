@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/27 14:14:04.000.825,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:15:17.000.728,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uPrincipal.pas</Transaction>
+    <Transaction>2019/11/27 14:15:17.000.728,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uPrincipal.dfm</Transaction>
+    <Transaction>2019/11/27 14:15:37.000.771,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\cadastroDeClientes.dproj</Transaction>
+    <Transaction>2019/11/27 14:21:54.000.593,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:23:12.000.268,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.dfm</Transaction>
+    <Transaction>2019/11/27 14:23:12.000.268,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.pas</Transaction>
+    <Transaction>2019/11/27 14:29:39.000.647,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.pas=</Transaction>
+    <Transaction>2019/11/27 14:35:55.572,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:38:01.805,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelCliente.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 16:10:33.844,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 16:30:23.537,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm</Transaction>
+    <Transaction>2019/11/27 16:30:23.537,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 18:03:05.777,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\FrmCadastroCliente.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.pas</Transaction>
+    <Transaction>2019/11/27 18:03:05.777,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\FrmCadastroCliente.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.dfm</Transaction>
+    <Transaction>2019/11/27 18:58:23.091,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 18:59:14.823,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm</Transaction>
+    <Transaction>2019/11/27 18:59:14.823,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

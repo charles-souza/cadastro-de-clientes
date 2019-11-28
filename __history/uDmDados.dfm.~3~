@@ -1,0 +1,44 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 219
+  Width = 488
+  object ClientDataSet1: TClientDataSet
+    PersistDataPacket.Data = {
+      D60000009619E0BD010000001800000008000000000003000000D60006436F64
+      69676F04000100000000000D4C696D6974654372656469746F08000400000000
+      00044E6F6D650100490000000100055749445448020002001400034350460100
+      49000000010005574944544802000200140008456E64657265636F0100490000
+      0001000557494454480200020014000E446174614E617363696D656E746F0400
+      0600000000000643696461646501004900000001000557494454480200020014
+      0002554601004900000001000557494454480200020014000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 368
+    Top = 88
+    object ClientDataSet1Codigo: TIntegerField
+      FieldName = 'Codigo'
+    end
+    object ClientDataSet1LimiteCredito: TFloatField
+      FieldName = 'LimiteCredito'
+    end
+    object ClientDataSet1Nome: TStringField
+      FieldName = 'Nome'
+    end
+    object ClientDataSet1CPF: TStringField
+      FieldName = 'CPF'
+    end
+    object ClientDataSet1Endereco: TStringField
+      FieldName = 'Endereco'
+    end
+    object ClientDataSet1DataNascimento: TDateField
+      FieldName = 'DataNascimento'
+    end
+    object ClientDataSet1Cidade: TStringField
+      FieldName = 'Cidade'
+    end
+    object ClientDataSet1UF: TStringField
+      FieldName = 'UF'
+    end
+  end
+end
