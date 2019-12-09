@@ -37,6 +37,7 @@ procedure TDmDados.DataModuleCreate(Sender: TObject);
 begin
   DmDados.ClientDataSet1.FileName := 'C:\TEMP\cadastros.xml';
   DmDados.ClientDataSet1.CreateDataSet;
+  DmDados.ClientDataSet1.LoadFromFile('C:\TEMP\cadastros.xml');
 end;
 
 end.

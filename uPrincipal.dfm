@@ -1,7 +1,8 @@
 object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
-  Caption = 'Caadastro de Clientes'
+  ActiveControl = edtNome
+  Caption = 'Cadastro de Clientes'
   ClientHeight = 478
   ClientWidth = 771
   Color = clBtnFace
@@ -11,6 +12,7 @@ object frmPrincipal: TfrmPrincipal
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
@@ -21,9 +23,8 @@ object frmPrincipal: TfrmPrincipal
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitTop = 119
     object btnIncluir: TSpeedButton
-      Left = 0
+      Left = 4
       Top = 1
       Width = 123
       Height = 40
@@ -31,18 +32,20 @@ object frmPrincipal: TfrmPrincipal
       OnClick = btnIncluirClick
     end
     object btnEditar: TSpeedButton
-      Left = 1
-      Top = 45
+      Left = 3
+      Top = 43
       Width = 123
       Height = 40
       Caption = 'Editar'
+      OnClick = btnEditarClick
     end
     object btnExcluir: TSpeedButton
-      Left = 2
-      Top = 89
+      Left = 4
+      Top = 85
       Width = 123
       Height = 40
       Caption = 'Excluir'
+      OnClick = btnExcluirClick
     end
   end
   object Panel2: TPanel
@@ -112,6 +115,7 @@ object frmPrincipal: TfrmPrincipal
       Height = 34
       Anchors = [akRight]
       Caption = 'Limpar'
+      OnClick = btnLimparClick
     end
     object btnPesquisar: TSpeedButton
       Left = 655
@@ -123,7 +127,7 @@ object frmPrincipal: TfrmPrincipal
       OnClick = btnPesquisarClick
     end
     object Label8: TLabel
-      Left = 464
+      Left = 449
       Top = 55
       Width = 13
       Height = 13
@@ -135,7 +139,7 @@ object frmPrincipal: TfrmPrincipal
       Width = 73
       Height = 21
       TabStop = False
-      ParentColor = True
+      Color = clWhite
       TabOrder = 0
     end
     object edtEndereco: TEdit
@@ -143,21 +147,22 @@ object frmPrincipal: TfrmPrincipal
       Top = 71
       Width = 298
       Height = 21
-      TabOrder = 1
+      TabOrder = 5
     end
     object edtCidade: TEdit
       Left = 320
       Top = 71
       Width = 121
       Height = 21
-      TabOrder = 2
+      TabOrder = 6
     end
-    object Edit5: TEdit
+    object edtNome: TEdit
       Left = 95
       Top = 32
       Width = 219
       Height = 21
-      TabOrder = 3
+      CharCase = ecUpperCase
+      TabOrder = 1
     end
     object edtDataNascimento: TMaskEdit
       Left = 448
@@ -166,8 +171,9 @@ object frmPrincipal: TfrmPrincipal
       Height = 21
       EditMask = '!99/99/0000;1;_'
       MaxLength = 10
-      TabOrder = 4
+      TabOrder = 3
       Text = '  /  /    '
+      OnClick = edtDataNascimentoClick
     end
     object edtCPF: TMaskEdit
       Left = 320
@@ -176,19 +182,20 @@ object frmPrincipal: TfrmPrincipal
       Height = 21
       EditMask = '000-000-000-00;0;_'
       MaxLength = 14
-      TabOrder = 5
+      TabOrder = 2
       Text = ''
+      OnClick = edtCPFClick
     end
     object edtLimiteCredito: TMaskEdit
       Left = 631
       Top = 32
       Width = 111
       Height = 21
-      TabOrder = 6
+      TabOrder = 4
       Text = ''
     end
     object cbUF: TDBComboBox
-      Left = 464
+      Left = 447
       Top = 71
       Width = 65
       Height = 21
@@ -230,10 +237,6 @@ object frmPrincipal: TfrmPrincipal
     Height = 365
     Align = alClient
     TabOrder = 2
-    ExplicitLeft = 320
-    ExplicitTop = 232
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     DesignSize = (
       642
       365)
@@ -245,6 +248,7 @@ object frmPrincipal: TfrmPrincipal
       Anchors = [akLeft, akTop, akRight, akBottom]
       Color = clBtnFace
       DataSource = DmDados.DataSource1
+      Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText

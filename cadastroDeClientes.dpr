@@ -5,7 +5,8 @@ uses
   uPrincipal in 'uPrincipal.pas' {frmPrincipal},
   uModelCliente in 'uModelCliente.pas',
   FrmCadastroCliente in 'FrmCadastroCliente.pas' {Form1},
-  uDmDados in 'uDmDados.pas' {DmDados: TDataModule};
+  uDmDados in 'uDmDados.pas' {DmDados: TDataModule},
+  uStatusTela in 'uStatusTela.pas';
 
 {$R *.res}
 

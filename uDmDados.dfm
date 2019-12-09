@@ -5,12 +5,49 @@ object DmDados: TDmDados
   Width = 488
   object ClientDataSet1: TClientDataSet
     Aggregates = <>
-    FieldDefs = <>
+    FieldDefs = <
+      item
+        Name = 'Codigo'
+        DataType = ftInteger
+      end
+      item
+        Name = 'LimiteCredito'
+        DataType = ftFloat
+      end
+      item
+        Name = 'Nome'
+        DataType = ftString
+        Size = 50
+      end
+      item
+        Name = 'CPF'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'Endereco'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'DataNascimento'
+        DataType = ftDate
+      end
+      item
+        Name = 'Cidade'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'UF'
+        DataType = ftString
+        Size = 20
+      end>
     IndexDefs = <>
     Params = <>
     StoreDefs = True
-    Left = 368
-    Top = 88
+    Left = 296
+    Top = 112
     object ClientDataSet1Codigo: TIntegerField
       FieldName = 'Codigo'
     end
@@ -19,6 +56,7 @@ object DmDados: TDmDados
     end
     object ClientDataSet1Nome: TStringField
       FieldName = 'Nome'
+      Size = 50
     end
     object ClientDataSet1CPF: TStringField
       FieldName = 'CPF'
