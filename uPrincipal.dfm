@@ -147,6 +147,7 @@ object frmPrincipal: TfrmPrincipal
       Top = 71
       Width = 298
       Height = 21
+      CharCase = ecUpperCase
       TabOrder = 5
     end
     object edtCidade: TEdit
@@ -154,6 +155,7 @@ object frmPrincipal: TfrmPrincipal
       Top = 71
       Width = 121
       Height = 21
+      CharCase = ecUpperCase
       TabOrder = 6
     end
     object edtNome: TEdit

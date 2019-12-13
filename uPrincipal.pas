@@ -84,25 +84,13 @@ end;
 procedure TfrmPrincipal.btnEditarClick(Sender: TObject);
 begin  
   TelaCadastro(StatusTela.Editar);
-  //DmDados.ClientDataSet1.LoadFromFile();
-
-//  edtCodigo.Text        := DmDados.ClientDataSet1.FieldByName('CODIGO').AsString;
-//  edtNome.Text          := DmDados.ClientDataSet1.FieldByName('NOME').AsString;
-//  edtCPF.Text;
-//  //edtDataNascimento.Text := DmDados.ClientDataSet1.FieldByName('DATANASCIMENTO').AsString;
-//  edtLimiteCredito.Text := DmDados.ClientDataSet1.FieldByName('LIMITECREDITO').AsString;
-//  edtEndereco.Text      := DmDados.ClientDataSet1.FieldByName('ENDERECO').AsString;
-//  edtCidade.Text        := DmDados.ClientDataSet1.FieldByName('CIDADE').AsString;
-//  cbUF.Text             := DmDados.ClientDataSet1.FieldByName('UF').AsString;
 end;
 
 procedure TfrmPrincipal.btnExcluirClick(Sender: TObject);
 begin
- //TelaCadastro(StatusTela.Excluir);
- //MessageDlg('Deseja mesmo apagar o registro?', mtConfirmation, [mbYes, mbNo], 0);
+
  if not DmDados.ClientDataSet1.IsEmpty then
  begin
- //MessageDlg('Deseja mesmo apagar o registro?', mtConfirmation, [mbYes, mbNo], 0);
    if MessageDlg('Deseja mesmo apagar o registro?', mtConfirmation,
      [mbYes, mbNo], 0) = mrYes then
    begin
@@ -142,7 +130,7 @@ begin
   DmDados.ClientDataSet1.Close;
   DmDados.ClientDataSet1.Open;
 
-  filtro := '';
+  filtro := EmptyStr;
 
   if (edtcodigo.Text <> EmptyStr) then
   begin
@@ -189,11 +177,11 @@ begin
   begin
     if(filtro <> EmptyStr) then
     begin
-      filtro := filtro + ' AND UPPER(LIMITECREDITO) LIKE ''%' + UpperCase(edtLimiteCredito.Text) + '%''';
+      filtro := filtro + ' AND LIMITECREDITO = ' + edtLimiteCredito.Text;
     end
     else
     begin
-      filtro := 'UPPER(LIMITECREDITO) LIKE ''%' + UpperCase(edtLimiteCredito.Text) + '%''';
+      filtro := 'LIMITECREDITO = ' + edtLimiteCredito.Text;
     end;
   end;
 

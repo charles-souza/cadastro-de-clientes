@@ -64,6 +64,7 @@ var
    end;
  end;
 
+
 function validaIdadeLimite(data : TDate; limite : Double) : Boolean;
 var
   vAnos : Integer;
@@ -142,7 +143,7 @@ begin
     DmDados.ClientDataSet1Nome.AsString := edtNome.Text;
     DmDados.ClientDataSet1CPF.AsString := edtCPF.Text;
     Dmdados.ClientDataSet1DataNascimento.AsDateTime := edtDataNascimento.Date;
-    DmDados.ClientDataSet1LimiteCredito.AsString := edtLimiteCredito.Text;
+    DmDados.ClientDataSet1LimiteCredito.AsInteger := strToIntDef(edtLimiteCredito.Text, 0);
     DmDados.ClientDataSet1Endereco.AsString := edtEndereco.Text;
     DmDados.ClientDataSet1Cidade.AsString := edtCidade.Text;
     DmDados.ClientDataSet1UF.AsString := cbUF.Text;
@@ -172,11 +173,6 @@ begin
   edtEndereco.Text      := DmDados.ClientDataSet1.FieldByName('ENDERECO').AsString;
   edtCidade.Text        := DmDados.ClientDataSet1.FieldByName('CIDADE').AsString;
   cbUF.Text             := DmDados.ClientDataSet1.FieldByName('UF').AsString;
-  end;
-
-  if(gStatusTela = StatusTela.Excluir) then
-  begin
-    //ShowMessage('EXCLUIR');
   end;
 
 end;

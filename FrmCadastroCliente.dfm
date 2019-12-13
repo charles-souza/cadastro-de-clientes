@@ -106,6 +106,7 @@ object Form1: TForm1
     Top = 111
     Width = 225
     Height = 21
+    CharCase = ecUpperCase
     TabOrder = 5
   end
   object edtNome: TEdit
@@ -113,6 +114,7 @@ object Form1: TForm1
     Top = 32
     Width = 360
     Height = 21
+    CharCase = ecUpperCase
     TabOrder = 1
   end
   object edtCPF: TMaskEdit
@@ -130,6 +132,7 @@ object Form1: TForm1
     Top = 111
     Width = 120
     Height = 21
+    CharCase = ecUpperCase
     TabOrder = 6
   end
   object edtDataNascimento: TDateTimePicker
