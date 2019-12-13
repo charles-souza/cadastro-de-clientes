@@ -157,6 +157,7 @@ object Form1: TForm1
     Top = 111
     Width = 65
     Height = 21
+    Enabled = False
     TabOrder = 7
     Items.Strings = (
       'AC'
