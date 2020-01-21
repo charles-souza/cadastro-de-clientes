@@ -74,6 +74,7 @@ object Form1: TForm1
     Height = 34
     Anchors = [akRight]
     Caption = 'Cancelar'
+    OnClick = SpeedButton5Click
   end
   object btnGravar: TSpeedButton
     Left = 242
@@ -96,6 +97,8 @@ object Form1: TForm1
     Top = 32
     Width = 57
     Height = 21
+    TabStop = False
+    ReadOnly = True
     TabOrder = 0
   end
   object edtEndereco: TEdit
@@ -103,6 +106,7 @@ object Form1: TForm1
     Top = 111
     Width = 225
     Height = 21
+    CharCase = ecUpperCase
     TabOrder = 5
   end
   object edtNome: TEdit
@@ -110,8 +114,8 @@ object Form1: TForm1
     Top = 32
     Width = 360
     Height = 21
+    CharCase = ecUpperCase
     TabOrder = 1
-    Text = 'Charles Lucas Santana de Souza'
   end
   object edtCPF: TMaskEdit
     Left = 16
@@ -128,23 +132,32 @@ object Form1: TForm1
     Top = 111
     Width = 120
     Height = 21
+    CharCase = ecUpperCase
     TabOrder = 6
   end
-  object edtDataNascimento: TMaskEdit
-    Left = 143
-    Top = 69
+  object edtDataNascimento: TDateTimePicker
+    Left = 144
+    Top = 68
     Width = 98
     Height = 21
-    EditMask = '!99/99/0000;1;_'
-    MaxLength = 10
+    Date = 43802.000000000000000000
+    Time = 0.452586134262674000
     TabOrder = 3
-    Text = '  /  /    '
   end
-  object cbUF: TDBComboBox
+  object edtLimiteCredito: TEdit
+    Left = 256
+    Top = 68
+    Width = 186
+    Height = 21
+    NumbersOnly = True
+    TabOrder = 4
+  end
+  object cbUF: TComboBox
     Left = 377
     Top = 111
     Width = 65
     Height = 21
+    TabOrder = 7
     Items.Strings = (
       'AC'
       'AL'
@@ -173,14 +186,5 @@ object Form1: TForm1
       'SE'
       'SP'
       'TO')
-    TabOrder = 7
-  end
-  object edtLimiteCredito: TMaskEdit
-    Left = 255
-    Top = 69
-    Width = 186
-    Height = 21
-    TabOrder = 4
-    Text = ''
   end
 end
