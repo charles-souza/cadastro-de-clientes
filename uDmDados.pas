@@ -1,0 +1,43 @@
+unit uDmDados;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Datasnap.DBClient, midaslib;
+
+type
+  TDmDados = class(TDataModule)
+    ClientDataSet1: TClientDataSet;
+    ClientDataSet1Codigo: TIntegerField;
+    ClientDataSet1LimiteCredito: TFloatField;
+    ClientDataSet1Nome: TStringField;
+    ClientDataSet1CPF: TStringField;
+    ClientDataSet1Endereco: TStringField;
+    ClientDataSet1DataNascimento: TDateField;
+    ClientDataSet1Cidade: TStringField;
+    ClientDataSet1UF: TStringField;
+    DataSource1: TDataSource;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DmDados: TDmDados;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TDmDados.DataModuleCreate(Sender: TObject);
+begin
+  DmDados.ClientDataSet1.FileName := 'C:\TEMP\cadastros.xml';
+  DmDados.ClientDataSet1.CreateDataSet;
+  DmDados.ClientDataSet1.LoadFromFile('C:\TEMP\cadastros.xml');
+end;
+
+end.

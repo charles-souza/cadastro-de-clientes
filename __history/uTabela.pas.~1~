@@ -1,0 +1,86 @@
+unit uTabela;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, ZAbstractRODataset,
+  ZAbstractDataset, ZAbstractTable, ZDataset, ZAbstractConnection, ZConnection,
+  Vcl.DBCtrls, Vcl.StdCtrls;
+
+type
+  TTabela = class(TDataModule)
+    conexao: TZConnection;
+    dsCliente: TDataSource;
+    qryClientes: TZQuery;
+    qryClientesCODIGO: TIntegerField;
+    qryClientesNOME: TWideStringField;
+    qryClientesENDERECO: TWideStringField;
+    qryClientesCIDADE: TWideStringField;
+    qryClientesUF: TWideStringField;
+    qryClientesCPF: TWideStringField;
+    qryClientesDATA_NASCIMENTO: TDateTimeField;
+    qryClientesLIMITE_CREDITO: TFloatField;
+    qryProxCodigo: TZQuery;
+    qryProxCodigoSEQUENCE: TFloatField;
+    qryUF: TZQuery;
+    dsUF: TDataSource;
+    qryUFUF: TWideStringField;
+    qryUFDESCRICAO: TWideStringField;
+  private
+    { Private declarations }
+  public
+    procedure CarregarEstados(pComboUF: TComboBox; pUFPadrao: string = '');
+  end;
+
+var
+  Tabela: TTabela;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TTabela }
+
+procedure TTabela.CarregarEstados(pComboUF: TComboBox; pUFPadrao: string = '');
+var
+  i: integer;
+begin
+//Valida se o objeto já está criado na memória
+  if not Assigned(pComboUF) then
+    raise Exception.Create('O parâmetro do objeto do estado não foi informado.')
+  else
+  begin
+    pComboUF.Items.Clear;
+
+    qryUF.Close;
+    qryUF.Open;
+
+    try
+      while not qryUF.Eof do
+      begin
+        pComboUF.Items.Add(Tabela.qryUF.FieldByName('UF').AsString);
+        qryUF.Next;
+      end;
+    finally
+      qryUF.Close;
+    end;
+
+    if pUFPadrao = '' then
+      pComboUF.ItemIndex := -1
+    else
+    begin
+      for i := 0 to pComboUF.Items.Count do
+      begin
+        if pComboUF.Items.Strings[i] = pUFPadrao then
+        begin
+          pComboUF.ItemIndex := i;
+          Break;
+        end;
+      end;
+    end;
+  end;
+end;
+
+end.

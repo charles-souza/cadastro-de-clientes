@@ -1,0 +1,37 @@
+unit uUF;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TUF = class
+  private
+    FUF : String;
+    FDescricao : String;
+    procedure SetUF(const Value: String);
+    procedure SetDescricao(const Value: String);
+  public
+    property UF : String read FUF write SetUF;
+    property Descricao : String read FDescricao write SetDescricao;
+  end;
+
+implementation
+
+uses
+  uTabela;
+
+{ TUF }
+
+procedure TUF.SetDescricao(const Value: String);
+begin
+  FDescricao := Value;
+end;
+
+procedure TUF.SetUF(const Value: String);
+begin
+  FUF := Value;
+end;
+
+end.

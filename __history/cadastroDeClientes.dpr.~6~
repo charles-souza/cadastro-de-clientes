@@ -1,0 +1,22 @@
+program cadastroDeClientes;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {frmPrincipal},
+  uModelCliente in 'uModelCliente.pas',
+  FrmCadastroCliente in 'FrmCadastroCliente.pas' {Form1},
+  uStatusTela in 'uStatusTela.pas',
+  uTabela in 'uTabela.pas' {Tabela: TDataModule},
+  uClienteDAO in 'uClienteDAO.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  ReportMemoryLeaksOnShutdown := DebugHook <> 0;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TTabela, Tabela);
+  Application.Run;
+end.

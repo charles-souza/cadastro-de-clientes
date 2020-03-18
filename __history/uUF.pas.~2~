@@ -1,0 +1,19 @@
+unit uUF;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUF = class
+  private
+    FUF : String;
+    FDescricao : String;
+  public
+
+  end;
+
+implementation
+
+end.

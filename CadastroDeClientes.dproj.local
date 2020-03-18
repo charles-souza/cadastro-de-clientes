@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/27 14:14:04.000.825,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:15:17.000.728,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uPrincipal.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:15:17.000.728,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uPrincipal.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/11/27 14:15:37.000.771,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\cadastroDeClientes.dproj=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2019/11/27 14:21:54.000.593,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:23:12.000.268,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:23:12.000.268,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm</Transaction>
+    <Transaction>2019/11/27 14:29:39.000.647,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.pas=</Transaction>
+    <Transaction>2019/11/27 14:35:55.000.572,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 14:38:01.000.805,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelCliente.pas</Transaction>
+    <Transaction>2019/11/27 16:10:33.000.844,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 16:30:23.000.537,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.pas</Transaction>
+    <Transaction>2019/11/27 16:30:23.000.537,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.dfm</Transaction>
+    <Transaction>2019/11/27 18:03:05.000.777,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\FrmCadastroCliente.pas</Transaction>
+    <Transaction>2019/11/27 18:03:05.000.777,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uModelClienteCadastro.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\FrmCadastroCliente.dfm</Transaction>
+    <Transaction>2019/11/27 18:58:23.000.091,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/27 18:59:14.000.823,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.pas</Transaction>
+    <Transaction>2019/11/27 18:59:14.000.823,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uDmDados.dfm</Transaction>
+    <Transaction>2019/11/28 17:31:19.000.983,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/11/28 17:31:30.000.754,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uStatusTela.pas</Transaction>
+    <Transaction>2019/12/23 13:54:15.000.508,=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas</Transaction>
+    <Transaction>2019/12/23 13:54:29.000.987,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.pas=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uTabela.pas</Transaction>
+    <Transaction>2019/12/23 13:54:29.000.987,C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\Unit1.dfm=C:\Users\charles.souza\Documents\Embarcadero\Studio\Projects\Cadastro de Clientes\uTabela.dfm</Transaction>
+    <Transaction>2020/01/06 11:33:58.000.875,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uDmDados.pas=</Transaction>
+    <Transaction>2020/01/06 15:58:00.000.231,=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Unit1.pas</Transaction>
+    <Transaction>2020/01/06 15:58:34.000.924,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uClienteDAO.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Unit1.pas</Transaction>
+    <Transaction>2020/01/22 14:10:36.000.035,=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Unit1.pas</Transaction>
+    <Transaction>2020/01/22 14:11:39.000.873,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uUF.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Unit1.pas</Transaction>
+    <Transaction>2020/01/23 10:33:03.000.791,=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Unit1.pas</Transaction>
+    <Transaction>2020/01/23 10:33:45.000.461,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Unit1.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uUFDAO.pas</Transaction>
+    <Transaction>2020/01/24 11:10:36.000.649,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\FrmCadastroCliente.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Formularios\FrmCadastroCliente.pas</Transaction>
+    <Transaction>2020/01/24 11:10:36.000.649,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\FrmCadastroCliente.dfm=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Formularios\FrmCadastroCliente.dfm</Transaction>
+    <Transaction>2020/01/24 11:10:42.000.745,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uPrincipal.dfm=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Formularios\uPrincipal.dfm</Transaction>
+    <Transaction>2020/01/24 11:10:42.000.745,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uPrincipal.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Formularios\uPrincipal.pas</Transaction>
+    <Transaction>2020/01/24 11:11:27.000.326,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uClienteDAO.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\DAO\uClienteDAO.pas</Transaction>
+    <Transaction>2020/01/24 11:11:31.000.713,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uUFDAO.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\DAO\uUFDAO.pas</Transaction>
+    <Transaction>2020/01/24 11:12:03.000.270,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uModelCliente.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Model\uModelCliente.pas</Transaction>
+    <Transaction>2020/01/24 11:12:30.000.422,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uStatusTela.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Model\uStatusTela.pas</Transaction>
+    <Transaction>2020/01/24 11:12:34.000.952,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uUF.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\Model\uUF.pas</Transaction>
+    <Transaction>2020/01/24 11:13:30.000.634,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uTabela.pas=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\DAO\uTabela.pas</Transaction>
+    <Transaction>2020/01/24 11:13:30.000.634,C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\uTabela.dfm=C:\FonteDelphi\Cadastro-de-Clientes-Oracle\Cadastro-de-Clientes-Oracle\DAO\uTabela.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="DAO"/>
+    <File Path="DAO\uClienteDAO.pas"/>
+    <File Path="DAO\uUFDAO.pas"/>
+    <File Path="DAO\uTabela.pas"/>
+    <File Path="DAO\uTabela.dfm"/>
+    <File Path="Formularios"/>
+    <File Path="Formularios\FrmCadastroCliente.pas"/>
+    <File Path="Formularios\FrmCadastroCliente.dfm"/>
+    <File Path="Formularios\uPrincipal.pas"/>
+    <File Path="Formularios\uPrincipal.dfm"/>
+    <File Path="Model"/>
+    <File Path="Model\uModelCliente.pas"/>
+    <File Path="Model\uStatusTela.pas"/>
+    <File Path="Model\uUF.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,35 @@
+unit uUFDAO;
+
+interface
+
+uses
+  ZDataset, uUF, System.Generics.Collections;
+
+type
+  TUFDAO = class
+  private
+    FQuery: TZQuery;
+    FUF: TUF;
+    FListaUF: TList<TUF>;
+
+  public
+    constructor Create(pUF : TUF);
+    function ListaUF() : TList<TUF>;
+  end;
+
+implementation
+
+uses
+  uTabela;
+
+{ TUFDAO }
+
+constructor TUFDAO.Create(pUF: TUF);
+begin
+  FQuery := TZQuery.Create(nil);
+  FQuery.Connection := uTabela.Tabela.conexao;
+  FListaUF := TList<TUF>.Create;
+  FUF := pUF;
+end;
+
+end.

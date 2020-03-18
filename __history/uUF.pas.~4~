@@ -1,0 +1,48 @@
+unit uUF;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TUF = class
+  private
+    FUF : String;
+    FDescricao : String;
+    procedure SetUF(const Value: String);
+    procedure SetDescricao(const Value: String);
+  public
+    property UF : String read FUF write SetUF;
+    property Descricao : String read FDescricao write SetDescricao;
+    function ListaUF() : TStrings;
+  end;
+
+implementation
+
+uses
+  uTabela;
+
+{ TUF }
+
+function TUF.ListaUF: TStrings;
+begin
+  Tabela.qryUF.First;
+  while not(Tabela.qryUF.Eof) do
+  begin
+    Result.Add(Tabela.qryUF.FieldByName('UF').AsString);
+    Tabela.qryUF.Next;
+  end;
+end;
+
+procedure TUF.SetDescricao(const Value: String);
+begin
+  FDescricao := Value;
+end;
+
+procedure TUF.SetUF(const Value: String);
+begin
+  FUF := Value;
+end;
+
+end.
